@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{848D8E1E-71D6-36C7-B1EA-E0D5F7C1B402}</ProjectGuid>
+    <ProjectGuid>{D1BD1958-6D56-6135-298E-097C523313B9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Script/Sword.cs" />
     <Compile Include="Assets/Script/AfterImagePool.cs" />
+    <Compile Include="Assets/Script/EnemyHealt.cs" />
     <Compile Include="Assets/Script/CharacterController.cs" />
     <Compile Include="Assets/Script/GhostTrail.cs" />
-    <Compile Include="Assets/Script/Sword.cs" />
-    <Compile Include="Assets/Script/EnemyHealt.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
