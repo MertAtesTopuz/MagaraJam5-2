@@ -66,7 +66,7 @@ public class EnemyHealt : MonoBehaviour
         currentHealth -= damageToGive;
         flashActive = true;
         flashCounter = flashLenght;
-        rb.AddForce(transform.position * -50);
+        rb.transform.position = new Vector2(rb.velocity.x -5, rb.velocity.y +5);
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
