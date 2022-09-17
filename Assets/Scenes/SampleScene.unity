@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 917250727}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1206,12 +1206,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917250726}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59574a1bdc40643db8ee875c77ac6be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  currentHealth: 5
+  maxHealth: 5
+  flashLenght: 0.3
 --- !u!50 &917250728
 Rigidbody2D:
   serializedVersion: 4
@@ -1232,7 +1234,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &917250729
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6256,7 +6258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1282955669
 Transform:
   m_ObjectHideFlags: 0
@@ -6336,6 +6338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5d8dbd72229842a99cee3e9211c80e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1
 --- !u!61 &1282955672
 BoxCollider2D:
   m_ObjectHideFlags: 0

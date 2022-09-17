@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{D1BD1958-6D56-6135-298E-097C523313B9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/EnemyHealt.cs">
+    <Files>
+      <File FileName="Assets/Script/CharacterController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/EnemyHealt.cs" Line="69" Column="46" />
+      <File FileName="Assets/Script/Sword.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="42f44574-eced-4e31-a411-7f3cd6f179a3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -223,9 +223,7 @@ public class CharacterController : MonoBehaviour
     void Flip()
     {
         faceRight = !faceRight;
-        Vector3 scaler = transform.localScale;
-        scaler.x *= -1;
-        transform.localScale = scaler;
+        transform.Rotate(0f, 180f, 0f);
 
     }
 
@@ -239,9 +237,6 @@ public class CharacterController : MonoBehaviour
         {
             anim.SetTrigger("isAttack");
         }
-
-       
-
     }
 
     #endregion

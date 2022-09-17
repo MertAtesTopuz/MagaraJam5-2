@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int damage;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.transform.tag == "Enemy")
+        {
+            other.GetComponent<EnemyHealt>().HurtEnemy(damage);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider other)
     {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
+        if (other.transform.tag == "Enemy")
+        {
+            other.GetComponent<EnemyHealt>().HurtEnemy(damage);
+        }
     }
 }
